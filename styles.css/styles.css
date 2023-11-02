@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9cece;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url(../R\ \(3\).jpeg) ;
+font-size: 13px;
+}
+
+.container{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 150px;
+}
+
+h1 {
+
+margin: 0;
+}
+
+.input-container {
+
+   margin-bottom: 16px ;
+text-align:left ;
+}
+.calcular {
+
+    margin-bottom: 10px;
+}
+
+label {
+
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+button:hover {
+
+ background-color: black;
+}
+
+
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para a exibição do IMC e classificação */
+#classificacao {
+    font-weight: bold;
+    color: #3498db;
+}
+
